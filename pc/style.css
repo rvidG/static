@@ -27,7 +27,7 @@ ul {
 
   li a:hover,
   .dropdown:hover .dropbtn {
-    background-image: radial-gradient(#FFA500, #222222);
+    background-image: radial-gradient(rgb(34, 34, 60), #222222);
     cursor: pointer;
   }
 
