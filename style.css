@@ -8,3 +8,36 @@ body {
 a {
   color: #FFA500;
 }
+
+button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #111;
+}
+
+.discord {
+  width: 75%;
+  background-color: #1c1b1e;
+  border-radius: 0.5em;
+}
+
+.discord button {
+  padding: 0.5em;
+  background-color: #5865f2;
+}
+
+.discord a {
+  text-decoration: none;
+}
+
+.discord button:hover {
+  background-color: #2d3fff;
+}
+
+.discord a {
+  color: #FFF;
+}
+
+.discord-content {
+  padding: 1em;
+}
