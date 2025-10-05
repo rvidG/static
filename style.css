@@ -9,6 +9,7 @@ a {
   color: #FFA500;
 }
 
+<<<<<<< HEAD
 button {
   padding: 0.5em;
   border-radius: 0.5em;
@@ -41,4 +42,101 @@ button {
 .discord-content {
   padding: 1em;
   padding-top: 0;
+=======
+/* PC */
+@media only screen and (min-width: 769px) {
+  ul {
+    background-color: rgba(0, 0, 0, 0.165);
+    border-radius: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  li a,
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border: none;
+    cursor: default;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-image: radial-gradient(rgb(34, 34, 60), #222222);
+    cursor: pointer;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  ul li:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-right: auto;
+    float: left;
+  }
+
+  ul li:last-child {
+    margin-left: auto;
+    float: right;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.165);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 60em;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* smol devices */
+@media only screen and (max-width: 768px) {
+  .pc-nav {
+    display: none
+  }
+>>>>>>> 331e560 (haha goodbye javascript)
 }
