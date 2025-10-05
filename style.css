@@ -42,8 +42,8 @@ button {
 .discord-content {
   padding: 1em;
   padding-top: 0;
-=======
-/* PC */
+
+  /* PC */
 @media only screen and (min-width: 769px) {
   ul {
     background-color: rgba(0, 0, 0, 0.165);
@@ -138,5 +138,4 @@ button {
   .pc-nav {
     display: none
   }
->>>>>>> 331e560 (haha goodbye javascript)
 }
