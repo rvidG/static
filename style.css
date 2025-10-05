@@ -41,6 +41,7 @@ button {
 .discord-content {
   padding: 1em;
   padding-top: 0;
+}
 
   /* PC */
 @media only screen and (min-width: 769px) {
