@@ -1,5 +1,6 @@
 body {
   background-color: #222222;
+  position: relative;
   color: rgb(240, 240, 240);
   position: relative;
   font-family: Arial, sans-serif;
@@ -43,7 +44,7 @@ button {
   padding-top: 0;
 }
 
-  /* PC */
+/* PC */
 @media only screen and (min-width: 769px) {
   .navbar ul {
     background-color: rgba(0, 0, 0, 0.165);
@@ -81,7 +82,7 @@ button {
   .navbar li.dropdown {
     display: inline-block;
   }
-  
+
   .navbar ul li:first-child {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -123,14 +124,36 @@ button {
   }
 
   main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     max-width: 60em;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
+    align-content: center;
   }
+figure {
+  width: 100%;
+  max-width: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 0.5em;
+  display: block;
+}
+
+figure figcaption {
+  text-align: center;
+  color: #111;
+  background-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-100%);
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
 }
 
 /* smol devices */
