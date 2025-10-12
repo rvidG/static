@@ -45,7 +45,7 @@ button {
 
   /* PC */
 @media only screen and (min-width: 769px) {
-  ul {
+  .navbar ul {
     background-color: rgba(0, 0, 0, 0.165);
     border-radius: 1.5rem;
     list-style-type: none;
@@ -57,7 +57,7 @@ button {
     transition-duration: 0.4s;
   }
 
-  li a,
+  .navbar li a,
   .dropbtn {
     display: inline-block;
     color: white;
@@ -72,24 +72,24 @@ button {
     transition-duration: 0.4s;
   }
 
-  li a:hover,
+  .navbar li a:hover,
   .dropdown:hover .dropbtn {
     background-image: radial-gradient(rgb(34, 34, 60), #222222);
     cursor: pointer;
   }
 
-  li.dropdown {
+  .navbar li.dropdown {
     display: inline-block;
   }
   
-  ul li:first-child {
+  .navbar ul li:first-child {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-right: auto;
     float: left;
   }
 
-  ul li:last-child {
+  .navbar ul li:last-child {
     margin-left: auto;
     float: right;
   }
