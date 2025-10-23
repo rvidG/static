@@ -133,7 +133,7 @@ button {
   }
 figure {
   width: 100%;
-  max-width: 15em;
+  max-width: 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
