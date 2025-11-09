@@ -137,6 +137,18 @@ button {
     margin: 0 auto;
     align-content: center;
   }
+
+  .wallpaper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wallpaper img {
+    width: 100%;
+    max-width: 40em; 
+    border-radius: 0.5em;
+    display: block;
+  }
 figure {
   width: 100%;
   max-width: 10em;
