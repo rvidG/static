@@ -47,6 +47,7 @@ button {
 
 .wallpaper img {
   width: 99%;
+  max-width: inherit - 1rem;
   border-radius: 0.5em;
 }
 
